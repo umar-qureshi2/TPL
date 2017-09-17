@@ -3,3 +3,4 @@ C:\Source\Repos\TPL\Parallel\bin\Debug\Parallel.exe
 C:\Source\Repos\TPL\Parallel\bin\Debug\Parallel.pdb
 C:\Source\Repos\TPL\Parallel\obj\Debug\Parallel.exe
 C:\Source\Repos\TPL\Parallel\obj\Debug\Parallel.pdb
+C:\Source\Repos\TPL\Parallel\obj\Debug\Parallel.csprojResolveAssemblyReference.cache

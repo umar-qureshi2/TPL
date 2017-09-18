@@ -56,11 +56,5 @@ namespace ParallelExperiments
             Console.WriteLine($"Time Elapsed : {timer.ElapsedMilliseconds}");
         }
 
-        public class Supplier
-        {
-            public int ID { get; set; }
-            public string Name { get; set; }
-            public int VirtualId { get; set; }
-        }
     }
 }

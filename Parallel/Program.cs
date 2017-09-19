@@ -44,7 +44,7 @@ namespace ParallelExperiments
             Console.WriteLine("Lookups");
             TimeIt(() => Parallel.ForEach(allNums, x => toCheck.Contains(x)));
             TimeIt(() => Parallel.ForEach(allNums, x => toCheckParallel.Contains(x)));
-
+            Console.WriteLine("Another write line from master to be tested with VS");
 
             Console.ReadKey();
         }

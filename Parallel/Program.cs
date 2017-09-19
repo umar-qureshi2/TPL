@@ -37,7 +37,7 @@ namespace ParallelExperiments
             TimeIt(() => Parallel.ForEach(million, x => parallelRandoms.Add(x)));
             TimeIt(() => million.AsParallel().Select(x => x * 2));
 
-            Console.WriteLine($"Writing a line from master");
+            Console.WriteLine($"Writing a line from suplook + master");
             HashSet<int> toCheck = new HashSet<int>(randoms.Union(parallelRandoms));
             ConcurrentBag<int> toCheckParallel = new ConcurrentBag<int>(toCheck);
             var allNums = million.Union(doubles).ToList();
